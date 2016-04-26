@@ -11,3 +11,17 @@ For the impatient:
     make
     cd src
     make check
+
+
+ --with-python=no --with-boost=/usr/lib/x86_64-linux-gnu --with-boost-unit-test-framework=boost_unit_test_framework --with-boost-filesystem=boost_filesystem --with-boost-system=boost_system
+./nox_core -v -i ptcp: switch
+sudo mn --switch=user --controller=remote
+
+
+
+--with-python=no --with-boost=/usr/lib/x86_64-linux-gnu
+
+--with-boost-unit-test-framework=boost_unit_test_framework --with-boost-filesystem=boost_filesystem
+
+
+ --with-boost-serialization=boost_serialization
